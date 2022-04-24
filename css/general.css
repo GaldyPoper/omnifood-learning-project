@@ -57,6 +57,9 @@ Spacing System (px)
 html {
   /* 10px / 16px = 0.625 = 62.5% - % of user browser font-size settings */
   font-size: 62.5%;
+
+  /* smooth scroll doesn't work on Safari (all iOS) and Edge */
+  /* scroll-behavior: smooth; */
 }
 
 body {
