@@ -155,12 +155,20 @@
     transform: translateX(0);
   }
 
-  .icon-mobile-nav[name="close-outline"] {
+  .icon-mobile-nav[name="menu-outline"] {
     display: block;
   }
 
-  .icon-mobile-nav[name="menu-outline"] {
+  .icon-mobile-nav[name="close-outline"] {
     display: none;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
   }
 
   .main-nav-list {
